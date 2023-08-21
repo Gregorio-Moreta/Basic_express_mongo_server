@@ -18,7 +18,6 @@ const app = express();
 //  Pull the PORT variable from the .env file
 const {PORT = 2000, MONGODB_URI} = process.env;
 
-console.log(MONGODB_URI)
 ////////////////////////
 //  Database Connection
 ////////////////////////
