@@ -162,6 +162,9 @@ app.delete("/api/my/card/:id", async (req, res) => {
 //     res.render({card: Card[req.params.id], title: "cards show-page"})
 // })
 
-app.listen(PORT, () => {
-    console.log(`listening on ${PORT}`)
-})
+// app.listen(PORT, () => {
+//     console.log(`listening on ${PORT}`)
+// })
+
+// Start the server
+export default app
